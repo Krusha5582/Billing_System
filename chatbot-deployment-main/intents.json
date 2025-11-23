@@ -1,0 +1,340 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "gm"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank's For helping", "Thx", "Tq", "Tx"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Welcome :-)"]
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "Which courses are available?",
+        "Courses provided by the institution",
+        "Courses Given"
+      ],
+      "responses": [
+        "Courses Available: DIPLOMA | DEGREE | MASTERS",
+        "The institution provides: DIPLOMA | DEGREE | MASTERS",
+        "Courses Given: DIPLOMA | DEGREE | MASTERS"
+      ]
+    },
+    {
+      "tag": "branches",
+      "patterns": [
+        "Branches available in the institution",
+        "Branches given",
+        "Which branches are provided by the institution?"
+      ],
+      "responses":[
+        "The institution provides: COMPUTER ENGINEERING | IT | CIVIL ENGINEERING | BIOMEDICAL ENGINEERING",
+        "Branches available in the institution: COMPUTER ENGINEERING | IT | CIVIL ENGINEERING | BIOMEDICAL ENGINEERING",
+        "COMPUTER ENGINEERING | IT | CIVIL ENGINEERING | BIOMEDICAL ENGINEERING... are the given branches."
+      ]
+    },
+    {
+      "tag": "department",
+      "patterns": [
+        "Department available in the institution",
+        "Department given",
+        "Which department are provided by the institution?"
+      ],
+      "responses":[
+        "The institution provides: COMPUTER ENGINEERING | IT | CIVIL ENGINEERING | BIOMEDICAL ENGINEERING",
+        "Department available in the institution: COMPUTER ENGINEERING | IT | CIVIL ENGINEERING | BIOMEDICAL ENGINEERING",
+        "COMPUTER ENGINEERING | IT | CIVIL ENGINEERING | BIOMEDICAL ENGINEERING... are the given departments."
+      ]
+    },
+    {
+      "tag": "years",
+      "patterns": [
+        "How many years would it take for a course?",
+        "Time to complete a diploma course?",
+        "Time duration for degree?",
+        "How many years for masters?"
+      ],
+      "responses": [
+       "Following years would take to complete the respective courses: Diploma: 3 years | Degree: 3-4 years | Masters: 2 years",
+        "Time to complete a diploma Course: 3 Years",
+        "Degree Course: After Diploma 3 Years OR 4 Years",
+        "Masters Course: 2 Years"
+      ]
+    },
+    {
+      "tag": "hostel requirements",
+      "patterns": [
+        "Requirements for hostel room?",
+        "How to apply for hostel room?",
+        "Hostel Requirements?",
+        "Hostel Fees?"
+      ],
+      "responses": [
+        "Requirements for hostel room are :The id card proof of institution and parents granting letter is must ",
+        "1) ID card proof 2)Parents Granting Letter 3)Aadhar Card 4)Fees 200Rs/month",
+        "Fees: 200Rs/month"
+      ]
+    },
+    {
+      "tag": "hostel eligibility",
+      "patterns": [
+        "Am i eligible for hostel?",
+        "Hostel Eligibility?",
+        "Who is eligible to stay in hostel?"
+      ],
+      "responses": [
+        "Eligibility for hostel: MUST BE A STUDENT / FACULTY of the college",
+        "Any student or faculty of the college, is eligible to have a stay in the hostel."
+      ]
+    },
+    {
+      "tag": "hostel facility",
+      "patterns": [
+        "Is there any hostel facility?",
+        "Does the institution provide hostel facilities?",
+        "Hostel Facility?",
+        "Hostel?"
+      ],
+      "responses": [
+        "Hostel facilities are available.",
+        "Facilities provided: all 3 time meal facilities, room cleaning twice a week, separate bathrooms for each room and wifi facilities."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Does the institution provide placements?",
+        "Placement?",
+        "Placement Facilities?"
+      ],
+      "responses": [
+        "Yes the institution does provide placement facilities.",
+        "Placements are available for the fields of: Computer, IT and Civil",
+        "Over 100 well- known companies are connected with the institution. To have a brief information about the companies, do visit our site.",
+        "Any final year student can appear for the placement."
+      ]
+    },
+    {
+      "tag": "Exams",
+      "patterns" : [
+        "Pattern of examination",
+        "When is the final exam?",
+        "When will the result of final exam be declared?",
+        "Exam Schedule",
+        "Exam",
+        "Exam Dates?"
+      ],
+      "responses": [
+        "The institution conducts unit tests in regular lectures. 2 mid sems are taken. Lastly the final exams and viva.",
+        "The Final examination dates and results would be declared at the website of the board.",
+        "The exam schedule is displayed on the institution's website."
+      ]
+    },
+    {
+      "tag": "Syllabus",
+      "patterns": [
+        "Syllabus for the course",
+        "Syllabus for Computer",
+        "Syllabus for IT",
+        "Curriculum"
+      ],
+      "responses": [
+        "Kindly refer the board's website or the institution's website to gather information about your semester's Syllabus."
+      ]
+    },
+    {
+      "tag": "Materials",
+      "patterns": [
+        "What consists of the study Materials?",
+        "From where can I get the study Materials?",
+        "Does you institution provide study Materials?"
+      ],
+      "responses": [
+        "Our study materials includes: Chapter-wise PPT, Faculty notes, Previous Exams papers, IMP questions, Chapter-wise Assignments.",
+        "Study materials can be taken from the respective facilities. Some of our materials are also displayed on the website.",
+        "Our institution provides Study Materials which are rich in content."
+      ]
+    },
+    {
+      "tag": "visit",
+      "patterns": [
+        "When can we do a campus visit?",
+        "When can I visit college?",
+        "Campus Visit?"
+      ],
+      "responses": [
+        "Campus Visits can be done on weekdays between 10:30am to 6:00pm",
+        "One can visit campus on any working day between 10:30 am to 6:00 pm"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What are the facilities provided by the campus?",
+        "Which services are provided by the institution?"
+      ],
+      "responses": [
+        "Facilities: Hygienic Canteen, Indoor Activities Room, Monthly Events and much more :-)"
+      ]
+    },
+    {
+      "tag": "admission requirement",
+      "patterns": [
+        "What are the requirements for admission?",
+        "Documents needed for admission?",
+        "Admission Requirement?"
+      ],
+      "responses": [
+        "Admission Process can be do done in both online and offline mode. [ONLINE] For admission, 1st fill the form provided on the site which contain marksheet of 10th/12th/Diploma/Degree. Then andhar card number and a photograph is needed. [OFFLINE] Similarly here u need to come to the institution during office hours with a copy of ur marksheet, Adhar Card, 2 photographs. In offline mode the student need to come compulsorily.",
+        "Requirements: Marksheet of 10TH/12TH/DIPLOMA/DEGREE, AADHAR CARD COPY, 2 PHOTOGRAPHS",
+        "Admission fees: Diploma: Rs.10,000/semester | Degree: Rs.15,000/semester | Masters: Rs.25,000/semester",
+        "Mode of payment: ONLINE & OFFLINE"
+      ]
+    },
+    {
+      "tag": "admission process",
+      "patterns": [
+        "How can we start admission process?",
+        "Admission process",
+        "How to do admission process?"
+      ],
+      "responses": [
+        "Firstly, Open ACPC registeration portal of GTU then follow the given steps: 1)Registration 2)Document Verification 3)Publication of Merit List 4)Choice Filling 5)Seat Allotment,"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "What resources does the institution provide?",
+        "Does the institute provide any resources?"
+      ],
+      "responses": [
+        "The institute provides all the resources needed. Still if the student wants to bring his/ her own, he/ she is allowed."
+      ]
+    },
+    {
+      "tag": "Important dates",
+      "patterns": [
+        "What are the important college dates?",
+        "List out some important college dates?",
+        "Dates?"
+      ],
+      "responses": [
+        "The latest important date: MID-TERMS(COMPUTER-2ND SEM): 22ND MAY TO 30TH MAY. To see more important dates for event, check the academic calender of the college website.",
+        "Important dates for event are mentioned in academic calender of the college website."
+      ]
+    },
+    {
+      "tag": "Library",
+      "patterns": [
+        "What are the library timings?",
+        "How to issue a book from the library?"
+      ],
+      "responses": [
+        "The college library timings are from 11:00 am to 4:00 pm",
+        "Students can issue books from library between 2:00 pm to 3:30 pm. Books can be issued for a week. After that you can issue it again."
+      ]
+    },
+    {
+      "tag": "Attendance",
+      "patterns": [
+        "What is the minimum attendance required?",
+        "What are the attendance criteria?"
+      ],
+      "responses": [
+        "Minimum attendance required is 70%.",
+        "According to attendance criteria, a student must be present at least 70% of the total working days. Else possibilities are that the student might get detained."
+      ]
+    },
+    {
+      "tag": "Scholarship",
+      "patterns": [
+        "Is there any Scholarship provided by the institution?",
+        "What are the scholarships provides by the college?",
+        "How to apply for Scholarships?"
+      ],
+      "responses": [
+        "Yes, the college provides: Digital Gujarat and mysy Scholarships.",
+        "The college provides: Digital Gujarat and mysy Scholarships.",
+        "One can apply for scholarships by either consulting their class mentors or inquiring about it in the student section."
+      ]
+    },
+    {
+        "tag": "Fees",
+      "patterns": [
+        "What is the fees per academic year?",
+        "Is there any extra fee other than academics that the students have to pay?",
+        "What is the fee structure?"
+      ],
+      "responses": [
+        "The fees per academic year is Rs.1000. Which consists Rs.200 for the college fees, Rs.500 for the exam fee/semester and Rs.300 for GymKhana Activities. Note: The exact total may vary according to semesters."
+      ]
+    },
+    {
+        "tag": "Bonafide",
+      "patterns": [
+        "How can we issue a Bonafide certificate?",
+        "Where to apply for a bonafide certificate?",
+        "What documents are needed to apply for bonafide certificate?"
+      ],
+      "responses": [
+        "Students can issue bonafied certificate from the students section. They'll receive it after 2 days of their application.",
+        "Students can apply for the bonafide certificate in the student section.",
+        "For issuing a bonafide certificate, students must submit a copy of their AADHAR CARD, ID CARD and a application note stating the reason. For more inquiry, visit the student section of the college."
+      ]
+    },
+    {
+        "tag": "Student Section",
+      "patterns": [
+        "What are the timings for student section?",
+        "Student Section handle what kind of issues?"
+      ],
+      "responses": [
+        "Student Section timings are from 11:30 am to 5:00 pm",
+        "Student Section deals with Scholarships, bus concession pass, bonafide certificates, marksheets, transcripts, etc."
+      ]
+    },
+    {
+      "tag": "Affiliations",
+      "patterns": [
+        "What are the college affiliations?"
+      ],
+      "responses": [
+        "The college is GTU & NBA certified."
+      ]
+    },
+    {
+        "tag": "Feedbacks",
+      "patterns": [
+        "How to register a feedback?"
+      ],
+      "responses": [
+        "Certainly. We're open to receive feedbacks. You can submit your feedback in the department's feedback box."
+      ]
+    }
+  ]
+}
