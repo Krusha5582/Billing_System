@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.ggpa.cteguj.in	TRUE	/	FALSE	1999999999	4fcef35b1335b82d537463b48100f21d	vp0jps2g5o9i0r92vs7t9mpmk2
-www.ggpa.cteguj.in	TRUE	/	FALSE	1999999999	ci_session	87698e5a610420d60beabc4e8862fe04e96d070c
-
